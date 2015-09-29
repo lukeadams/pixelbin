@@ -27,6 +27,9 @@ defmodule Pixelbin.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:cauldron, "~> 0.1.5"},
+      {:urna, "~> 0.1.4"}
+    ]
   end
 end
